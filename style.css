@@ -93,7 +93,11 @@ height:30px;
 .w3-section,.w3-code{
 	margin-top:16px!important;margin-bottom:16px!important;
 	
-	}
+  }
+  
+  .text-center{
+    text-align: center;
+  }
 	
 .w3-content{
 	max-width:980px;margin:auto;
@@ -135,9 +139,10 @@ border:1px solid white;
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px; ;}
 
 .foot{
-    color:white;
+    color:rgb(255, 255, 255);
     height: 90px;
-    background-color: #0e0e0e;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
 
 }
@@ -429,3 +434,7 @@ span{
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gl1aHhXnN1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 */
+.taylor img{
+  width:400px;
+  height: 400px;
+}
